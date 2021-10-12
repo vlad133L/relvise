@@ -1,0 +1,17 @@
+.page__services {
+	position: relative;
+	margin-top: -111px;
+	z-index: 2;
+}
+
+.services__body {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px -30px;
+}
+
+.services__column {
+	padding: 0 15px;
+	flex: 0 1 33.333%;
+	margin: 0 0 30px 0;
+}

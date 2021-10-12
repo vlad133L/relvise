@@ -1,0 +1,31 @@
+.clients {
+	padding: 50px 0;
+}
+
+.page__clients {
+	margin-bottom: 10px;
+}
+
+.clients__items {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.clients__item {
+	padding: 8px 15px;
+	flex: 0 1 16.6667%;
+	text-align: center;
+	min-width: 140px;
+}
+
+.item-client__pic {
+	max-width: 100%;
+	transition: opacity 0.2s ease-in;
+}
+
+.item-client__pic:hover {
+	opacity: 0.5;
+}

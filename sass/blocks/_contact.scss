@@ -1,0 +1,50 @@
+.page__contant {}
+
+.contact {
+	background-color: #fff;
+	padding: 42px 0;
+}
+
+
+.contact__body {}
+
+.contact__content {
+	margin-bottom: 20px;
+	padding-right: 20px;
+}
+
+.contact__title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.33;
+	letter-spacing: 0.1px;
+
+	&:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}
+
+.contact__text {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.43;
+	letter-spacing: 0.2px;
+	color: $gray;
+}
+
+.contant__button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #ff7b47;
+	border-radius: 5px;
+	min-height: 58px;
+	padding: 0 40px;
+	color: #fff;
+	transition: background-color 0.2s ease-in;
+
+	&:hover {
+		background-color: #f74600;
+	}
+}
